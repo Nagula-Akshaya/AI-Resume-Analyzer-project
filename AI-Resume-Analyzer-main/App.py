@@ -103,7 +103,7 @@ def run():
     st.sidebar.markdown('# Choose User')
     activites = ['User', 'Admin']
     choice = st.sidebar.selectbox('Choose among the options:', activites)
-    link = '[@Developed by Bhavesh](https://www.linkedin.com/in/bhavesh-kabdwal/)'
+    link = '[@Developed by Akshaya](https://www.linkedin.com/in/akshaya-nagula/)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
 
     # creating database
